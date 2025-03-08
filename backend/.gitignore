@@ -1,0 +1,22 @@
+# Node.js backend
+node_modules/            # Ignore the node_modules directory (dependencies)
+npm-debug.log*           # Ignore npm debug log files
+yarn-error.log*          # Ignore Yarn error log files
+.env                     # Ignore environment variable files
+.env.local               # Ignore local environment files
+.env.development.local   # Ignore development environment files
+.env.test.local          # Ignore test environment files
+.env.production.local    # Ignore production environment files
+
+# Logs
+*.log                    # Ignore log files (e.g., app logs)
+
+# OS specific files
+.DS_Store                # macOS system files
+Thumbs.db                # Windows system files
+
+# IDE and editor files
+.vscode/                 # VSCode directory
+.idea/                   # IntelliJ IDEA directory
+*.sublime-workspace      # Sublime Text workspace files
+*.sublime-project        # Sublime Text project files
