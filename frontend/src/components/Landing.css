@@ -1,0 +1,55 @@
+.landing {
+  height: 100vh;
+  background: linear-gradient(to right, #1f140d, #9b8074);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.landing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+}
+
+.hero {
+  z-index: 2;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ffcc00;
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #e6b800;
+}

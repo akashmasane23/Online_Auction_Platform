@@ -1,0 +1,118 @@
+/* Auction Item Container */
+.auction-item {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #9b847a;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Auction Title */
+.auction-item h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.auction-item p {
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Buttons */
+.bid-button,
+.delete-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Bid Button */
+.bid-button {
+  background: linear-gradient(to right, #4caf50, #45a049);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.bid-button:hover {
+  background: linear-gradient(to right, #43a047, #388e3c);
+  transform: scale(1.05);
+}
+
+/* Delete Button */
+.delete-button {
+  background: linear-gradient(to right, #ff4444, #cc0000);
+  color: white;
+}
+
+.delete-button:hover {
+  background: linear-gradient(to right, #d32f2f, #b71c1c);
+  transform: scale(1.05);
+}
+
+/* Pay Now Button */
+.pay-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  margin-top: 10px;
+}
+
+.pay-button:hover {
+  background: linear-gradient(to right, #0069d9, #004b8e);
+  transform: scale(1.05);
+}
+
+/* Disabled Pay Now Button */
+.pay-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .auction-item {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .auction-item h2 {
+    font-size: 1.8rem;
+  }
+
+  .auction-item p {
+    font-size: 1rem;
+  }
+
+  .bid-button,
+  .delete-button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+}

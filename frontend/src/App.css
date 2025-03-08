@@ -1,0 +1,122 @@
+/* Header - Grey and Yellow Theme */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #1f140d, #9b8074); /* Grey to Yellow */
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease-in-out;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Navigation Links */
+.nav-link {
+  text-decoration: none;
+  color: black;  /* Better contrast on yellow */
+  font-weight: bold;
+  padding: 8px 15px;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Logout Button */
+.logout-button {
+  background: #ffcc00;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background: #e6b800;
+}
+
+/* Dark Mode Toggle */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.8rem; /* Slightly larger for better accessibility */
+  cursor: pointer;
+  color: var(--icon-color, black); /* Dynamic color based on theme */
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.15);
+}
+
+.dark-mode .theme-toggle {
+  color: white; /* Ensures visibility in dark mode */
+}
+
+
+/* Main Content */
+main {
+  padding: 20px;
+  text-align: center;
+  min-height: 80vh;
+}
+
+/* Footer - Grey and Yellow Theme */
+footer {
+  background: linear-gradient(to right, #1f140d, #9b8074);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Text */
+footer p {
+  margin: 5px 0;
+  color: white;
+}
+
+/* Highlighted Footer Text */
+footer p:first-child {
+  font-weight: bold;
+  color: #ffcc00; /* Yellow Highlight */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-link,
+  .logout-button {
+    display: block;
+  }
+
+  .theme-toggle {
+    margin-top: 10px;
+  }
+}

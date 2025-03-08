@@ -1,0 +1,133 @@
+/* Signin Container */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1f140d, #9b8074);
+  padding: 20px;
+}
+
+/* Signin Form */
+.signin-form {
+  background: #9b847a;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.signin-form:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Heading */
+.signin-form h2 {
+  margin-bottom: 12px;
+  color: #222;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.signin-form p {
+  margin-bottom: 22px;
+  color: #222;
+  font-size: 1rem;
+}
+
+/* Error Message */
+.error-message {
+  color: #d32f2f;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+  font-size: 1rem;
+}
+
+/* Input Fields */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+  border: 1px solid #ffbb00;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 187, 0, 0.5);
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #ffcc00, #ffbb00);
+  border: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #e6b800, #d9a600);
+  transform: scale(1.03);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.submit-button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Signup Link */
+.signup-link {
+  margin-top: 16px;
+  font-size: 0.9rem;
+}
+
+.signup-link a {
+  color: #ffbb00;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+  color: #e6a800;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .signin-form {
+    padding: 28px;
+    width: 92%;
+  }
+}
