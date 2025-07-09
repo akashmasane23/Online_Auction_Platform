@@ -20,7 +20,7 @@ A full-stack web application that allows users to create, manage, and participat
 
 **Frontend:**
 - React.js
-- Tailwind CSS
+- CSS
 
 **Backend:**
 - Node.js
@@ -34,16 +34,3 @@ A full-stack web application that allows users to create, manage, and participat
 - Git & GitHub (Version Control)
 
 ---
-
-## 📦 Installation
-
-### 🔧 Prerequisites
-- Node.js
-- MongoDB (local or Atlas)
-- Cloudinary account (for image hosting)
-
-### 💻 Clone the Repository
-
-```bash
-git clone https://github.com/akashmasane23/Online_Auction_Platform
-cd Online_Auction_Platform
