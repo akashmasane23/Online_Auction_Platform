@@ -47,7 +47,3 @@ A full-stack web application that allows users to create, manage, and participat
 ```bash
 git clone https://github.com/akashmasane23/Online_Auction_Platform
 cd Online_Auction_Platform
-![Screenshot (115)](https://github.com/user-attachments/assets/bfa417cb-8166-4a2b-8aa2-046e15c4c038)![Screenshot (94)](https://github.com/user-attachments/assets/4f59a212-57d1-4368-b620-a9b53887aa0d)
-
-![Screenshot (116)](https://github.com/user-attachments/assets/542ac5aa-fa52-4004-806e-7a67ae3f5247)
-![Screenshot (94)](https://github.com/user-attachments/assets/48a6b7dd-5cbb-4c59-88b6-7ebe1e42f6d3)
